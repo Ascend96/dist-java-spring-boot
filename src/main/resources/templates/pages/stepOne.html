@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ollie Step One</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>Ollie Step One</h2>
+<img class="left" th:src="@{/img/olliefootposition.jpg}" alt="ollie foot position">
+<h2>
+    Place your feet on the board like the picture to the left
+</h2>
+<p>
+    The starting point is to position your feet and gain balance on the skateboard. Your shoulders should always be directly
+    above your feet and you should be facing the way your feet are facing.
+</p>
+<p>
+    The first step to an ollie is popping the board. You achieve this by pressing down on the tail with your back foot
+    until you hear the "pop" sound when the tail hits the ground.
+</p>
+<p>
+    The louder the pop sound is, the higher the board will go. Your back foot should always be centered on the tail and
+    by the time the tail hits the ground and you hear the pop, your front foot should be at the tip of the nose.
+</p>
+<img class="left" th:src="@{/img/ollie1.png}" alt="pop the skateboard">
+<p>Content taken from <a
+        href="https://www.goskate.com/how-to-ollie/">here.</a></p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
